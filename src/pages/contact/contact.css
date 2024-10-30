@@ -1,0 +1,27 @@
+.contact-section .form-control {
+  background-color: #f7f7f6;
+  border-color: rgb(251, 226, 226);
+  color: black;
+  padding: 14px;
+}
+
+.contact-section .form-control:focus {
+  border-color: var(--primaryClr);
+  outline: none;
+  box-shadow: unset;
+}
+
+.contact-section label {
+  color: var(--textClr);
+  font-weight: 500;
+  font-size: 14px;
+  text-transform: capitalize;
+}
+
+.toast-message {
+  background: darkblue;
+  color: #fff;
+  font-size: 20px;
+  width: 34vw;
+  padding: 30px 20px;
+}

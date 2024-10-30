@@ -1,0 +1,78 @@
+.package {
+  font-family: "Poppins";
+  font-size: 17px;
+}
+
+.package-p {
+  font-family: "Poppins";
+  font-size: 15px;
+}
+
+.package-details {
+  font-family: "Poppins";
+  font-size: 14px;
+}
+
+.package-right {
+  font-family: "Poppins";
+  font-size: 12px;
+  font-weight: 400;
+  text-align: right;
+}
+
+.package-left-header {
+  font-family: "Poppins";
+  font-size: 18px;
+  font-weight: 600;
+  color: aliceblue;
+  text-transform: capitalize;
+  text-align: right;
+  transition: all;
+}
+
+.package-left-header-card {
+  background-color: burlywood;
+}
+
+.package-left-header-text {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+}
+
+.package-left-header-text-email {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+}
+
+.package-left-header-text-email:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.social {
+  height: 40px;
+  width: 40px;
+  background-color: rgba(255, 255, 255, 0.2);
+  margin: 0 10px 0 10px;
+  text-align: center;
+  line-height: 40px;
+  border-radius: 50%;
+  color: aliceblue;
+  transition: all 0.5s ease;
+  text-decoration: none;
+}
+
+.social:hover {
+  color: #24262b;
+  background-color: aliceblue;
+}
+
+.package-left-header-text-phone {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+}
+
+.package-left-header-text-phone:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}

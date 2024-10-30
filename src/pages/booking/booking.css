@@ -1,0 +1,65 @@
+.booking-section .form-control {
+  background-color: #f7f7f6;
+  border-color: rgb(251, 226, 226);
+  color: black;
+  padding: 14px;
+}
+
+.booking-section .form-control:focus {
+  border-color: var(--primaryClr);
+  outline: none;
+  box-shadow: unset;
+}
+
+.booking-section label {
+  color: var(--textClr);
+  font-weight: 500;
+  font-size: 14px;
+  text-transform: capitalize;
+}
+
+.react-datepicker-wrapper {
+  width: 100%;
+}
+
+.toast-message {
+  background: darkblue;
+  color: #fff;
+  font-size: 20px;
+  width: 34vw;
+  padding: 30px 20px;
+}
+
+.package-left-header-text-phone {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+}
+
+.package-left-header-text-phone:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.package-left-header-card {
+  background-color: burlywood;
+}
+
+.package-left-header-text {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+}
+
+.package-left-header-text-email {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+}
+
+.package-left-header-text-email:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.booking-header-title {
+  font-family: "Poppins";
+  font-weight: 700;
+}
