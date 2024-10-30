@@ -81,7 +81,7 @@ const ContactUs = () => {
                 <Card.Body className="text-center">
                   <div className="d-flex justify-content-center align-item-center my-2">
                     <div className="bg-succes rounded-circle text-success shadow-sm bg-opacity-10 p-3 mb-2">
-                      <i class="bi bi-earbuds"></i>
+                      <i className="bi bi-earbuds"></i>
                     </div>
                   </div>
                   <Card.Title className="fw-bold h5">Call Us</Card.Title>

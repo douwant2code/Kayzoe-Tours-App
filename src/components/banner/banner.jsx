@@ -14,25 +14,25 @@ const Banner = () => {
     <>
       <section className="slider">
         <Carousel variant="dark">
+          {/*** FIXING STARTS */}
+
           <Carousel.Item>
             <img src={BannerImg8} className="d-block w-100" alt="First slide" />
             <Carousel.Caption>
               <div className="slider_des">
-                <h5 className="heading">
-                  <span className="text-warning font-Montserrat ">
-                    DECEMBER HOLIDAY DEALS
-                  </span>{" "}
-                  <span className="span2 h3 mb-4 sub-heading">
-                    BE EXCITED, DECEMBER PACKAGES ARE BACK. BOOK YOUR TRIP TODAY
-                    TO SAVE MORE{" "}
-                  </span>
-                </h5>
-                <NavLink to="/booking" className="bannerBtn mb-12">
+                <h5 className="heading">Ready for a new adventure</h5>
+                <p className="sub_text mb-4">
+                  Whether you're dreaming of relaxing on white sandy beaches,
+                  exploring historic cities, or trekking through mountain
+                  trails, Kayzoe Tours has the perfect tour package for you!
+                </p>
+                <NavLink to="/booking" className="bannerBtn">
                   Get A Quote
                 </NavLink>
               </div>
             </Carousel.Caption>
           </Carousel.Item>
+
           <Carousel.Item>
             <img
               src={BannerImg10}
@@ -41,20 +41,18 @@ const Banner = () => {
             />
             <Carousel.Caption>
               <div className="slider_des">
-                <h5 className="heading">
-                  <span className="text-warning font-Montserrat ">
-                    EXPLORE PARADISE IN THE PARIS
-                  </span>{" "}
-                  <span className="span2 h3 mb-4 sub-heading">
-                    TOUR THE WORLD WITH KAYZOE SPECIAL PACKAGES
-                  </span>
-                </h5>
-                <NavLink to="/booking" className="bannerBtn mb-12">
+                <h5 className="heading">Leave the details to us</h5>
+                <p className="sub_text mb-4">
+                  From flights to accommodations and activities, we've got it
+                  covered! you won’t find anywhere else
+                </p>
+                <NavLink to="/booking" className="bannerBtn">
                   Get A Quote
                 </NavLink>
               </div>
             </Carousel.Caption>
           </Carousel.Item>
+
           <Carousel.Item>
             <img
               src={BannerImg17}
@@ -63,20 +61,20 @@ const Banner = () => {
             />
             <Carousel.Caption>
               <div className="slider_des">
-                <h5 className="heading">
-                  <span className="text-warning font-Montserrat ">
-                    YOUR DREAM TRIP STARTS HERE
-                  </span>{" "}
-                  <span className="span2 h3 mb-4 sub-heading">
-                    EXPLORE THE WORLD WITH KAYZOE TOURS SPECIAL PACKAGES
-                  </span>
-                </h5>
-                <NavLink to="/booking" className="bannerBtn ">
+                <h5 className="heading">Luxury resorts, clear blue waters</h5>
+                <p className="sub_text mb-4">
+                  Iconic sights, romantic streets, and cultural treasures.
+                  Rainforests, waterfalls, and thrilling zip-lining — for the
+                  adventure seekers!
+                </p>
+                <NavLink to="/booking" className="bannerBtn">
                   Get A Quote
                 </NavLink>
               </div>
             </Carousel.Caption>
           </Carousel.Item>
+
+          {/** FIXING ENDS */}
         </Carousel>
       </section>
     </>

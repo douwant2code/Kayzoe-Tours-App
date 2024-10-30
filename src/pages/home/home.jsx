@@ -15,7 +15,6 @@ import "slick-carousel/slick/slick-theme.css";
 import "../home/home.css";
 
 import { destinationsData, popularsData } from "../../utils/data";
-import { NavLink } from "react-router-dom";
 
 const HomePage = () => {
   var settings = {
@@ -123,36 +122,6 @@ const HomePage = () => {
             })}
           </Row>
         </Container>
-      </section>
-
-      {/** Call us start */}
-      <section className="call_us">
-        <Container>
-          <Row className="align-items-center">
-            <Col md="8">
-              <h5 className="title">CALL TO ACTION</h5>
-              <h2 className="heading">
-                READY FOR UNFORGETTABLE TRAVEL. REMEMBER US!
-              </h2>
-              <p className="text">
-                Kayzoe Tours can give you and your family unforgettable travel
-                experience that you cannot get anywhere. Ready for it ? Contact
-                us today.
-              </p>
-            </Col>
-            <Col md="4" className="text-center mt-3 mt-md-0">
-              <NavLink
-                to="contact-us"
-                className="secondary_btn bounce"
-                rel="no"
-              >
-                {" "}
-                Contact Us !
-              </NavLink>
-            </Col>
-          </Row>
-        </Container>
-        <div className="overlay"></div>
       </section>
 
       {/**Gallery start */}

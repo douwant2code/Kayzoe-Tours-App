@@ -28,6 +28,12 @@ export const Header = () => {
       : header.classList.remove("is-sticky");
   };
 
+  const closeMenu = () => {
+    if (window.innerWidth <= 991) {
+      setOpen(false);
+    }
+  };
+
   return (
     <header className="header-section">
       <Container>
@@ -57,22 +63,34 @@ export const Header = () => {
 
             <Offcanvas.Body>
               <Nav className="justify-content-end flex-grow-1 pe-3">
-                <NavLink className="nav-link" to="/">
+                <NavLink className="nav-link" to="/" onClick={closeMenu}>
                   HOME
                 </NavLink>
 
-                <NavLink className="nav-link" to="tours">
+                <NavLink className="nav-link" to="tours" onClick={closeMenu}>
                   TOURS
                 </NavLink>
 
-                <NavLink className="nav-link text-dark" to="destinations">
+                <NavLink
+                  className="nav-link text-dark"
+                  to="destinations"
+                  onClick={closeMenu}
+                >
                   DESTINATIONS
                 </NavLink>
-                <NavLink className="nav-link text-dark" to="/packages">
+                <NavLink
+                  className="nav-link text-dark"
+                  to="/packages"
+                  onClick={closeMenu}
+                >
                   PACKAGES
                 </NavLink>
 
-                <NavLink className="nav-link" to="photo-galleries">
+                <NavLink
+                  className="nav-link"
+                  to="photo-galleries"
+                  onClick={closeMenu}
+                >
                   GALLERY
                 </NavLink>
               </Nav>
