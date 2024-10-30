@@ -15,7 +15,6 @@ import "slick-carousel/slick/slick-theme.css";
 import "../home/home.css";
 
 import { destinationsData, popularsData } from "../../utils/data";
-import SiteBanner from "../../components/new/SiteBanner";
 
 const HomePage = () => {
   var settings = {

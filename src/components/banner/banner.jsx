@@ -23,8 +23,8 @@ const Banner = () => {
                     DECEMBER HOLIDAY DEALS
                   </span>{" "}
                   <span className="span2 h3 mb-4 sub-heading">
-                    BE EXCITED, DECEMBER HOLIDAY PACKAGES ARE BACK. BOOK YOUR
-                    TRIP TODAY TO SAVE MORE{" "}
+                    BE EXCITED, DECEMBER PACKAGES ARE BACK. BOOK YOUR TRIP TODAY
+                    TO SAVE MORE{" "}
                   </span>
                 </h5>
                 <NavLink to="/booking" className="bannerBtn mb-12">

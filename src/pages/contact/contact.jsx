@@ -7,7 +7,6 @@ import axios from "axios";
 import BreadCrumbs from "../../components/breadcrumbs/breadcrumb";
 import { Card, Col, Container, Row } from "react-bootstrap";
 
-import ContactImage from "../../assets/images/new/contact-us.png";
 import ContactImage1 from "../../assets/images/banner/banner5.jpg";
 import { NavLink } from "react-router-dom";
 
