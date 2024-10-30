@@ -79,6 +79,10 @@ export const UseFooter = () => {
                 <li>
                   <NavLink to="packages">packages</NavLink>
                 </li>
+
+                <li>
+                  <NavLink to="about-us">About Us</NavLink>
+                </li>
               </ul>
             </div>
             <div className="footer-col">

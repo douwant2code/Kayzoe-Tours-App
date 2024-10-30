@@ -28,7 +28,7 @@ const Banner = () => {
                   </span>
                 </h5>
                 <NavLink to="/booking" className="bannerBtn mb-12">
-                  Book Now
+                  Get A Quote
                 </NavLink>
               </div>
             </Carousel.Caption>
@@ -50,7 +50,7 @@ const Banner = () => {
                   </span>
                 </h5>
                 <NavLink to="/booking" className="bannerBtn mb-12">
-                  Book Now
+                  Get A Quote
                 </NavLink>
               </div>
             </Carousel.Caption>
@@ -72,7 +72,7 @@ const Banner = () => {
                   </span>
                 </h5>
                 <NavLink to="/booking" className="bannerBtn ">
-                  Book Now
+                  Get A Quote
                 </NavLink>
               </div>
             </Carousel.Caption>

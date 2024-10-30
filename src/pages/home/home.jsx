@@ -1,6 +1,6 @@
 import React from "react";
 import Banner from "../../components/banner/banner";
-import DestinationSearch from "../../components/search/search";
+
 import Features from "../../components/features/features";
 import { Col, Container, Row } from "react-bootstrap";
 
@@ -69,7 +69,7 @@ const HomePage = () => {
   return (
     <div>
       <Banner />
-      <DestinationSearch />
+
       <Features />
 
       {/* tour seciton start */}
@@ -108,7 +108,7 @@ const HomePage = () => {
           <Row>
             <Col md="12">
               <div className="main_heading">
-                <h1 className="destination"> Feature Activities </h1>
+                <h1 className="destination"> Feature Tours & Activities </h1>
               </div>
             </Col>
           </Row>

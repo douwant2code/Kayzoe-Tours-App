@@ -57,7 +57,7 @@ const Packages = () => {
 
                         <div className="card-text d-flex align-items-center justify-content-start mb-2">
                           <p>
-                            <i class="bi bi-pin-map-fill"></i>
+                            <i className="bi bi-pin-map-fill"></i>
                           </p>
                           <h5 className="px-2 text-body-secondary package-details">
                             10, Allee du Verger, Roissy-en-France
@@ -107,7 +107,7 @@ const Packages = () => {
 
                         <div className="card-text d-flex align-items-center justify-content-start mb-2">
                           <p>
-                            <i class="bi bi-pin-map-fill"></i>
+                            <i className="bi bi-pin-map-fill"></i>
                           </p>
                           <h5 className="px-2 text-body-secondary package-details">
                             Ronda Universitat, 1, Barcelona
@@ -158,7 +158,7 @@ const Packages = () => {
 
                         <div className="card-text d-flex align-items-center justify-content-start mb-2">
                           <p>
-                            <i class="bi bi-pin-map-fill"></i>
+                            <i className="bi bi-pin-map-fill"></i>
                           </p>
                           <h5 className="px-2 text-body-secondary package-details">
                             Jan Plezierweg 2, Schiphol
@@ -208,7 +208,7 @@ const Packages = () => {
 
                         <div className="card-text d-flex align-items-center justify-content-start mb-2">
                           <p>
-                            <i class="bi bi-pin-map-fill"></i>
+                            <i className="bi bi-pin-map-fill"></i>
                           </p>
                           <h5 className="px-2 text-body-secondary package-details">
                             Carrer Rauric 10, Barcelona
@@ -258,7 +258,7 @@ const Packages = () => {
 
                         <div className="card-text d-flex align-items-center justify-content-start mb-2">
                           <p>
-                            <i class="bi bi-pin-map-fill"></i>
+                            <i className="bi bi-pin-map-fill"></i>
                           </p>
                           <h5 className="px-2 text-body-secondary package-details">
                             372 The Strand, London
@@ -270,6 +270,7 @@ const Packages = () => {
                             Rated 5
                           </p>{" "}
                           <p className="px-2">
+                            <i className="bi bi-star-fill text-warning font-bold package-details"></i>
                             <i className="bi bi-star-fill text-warning font-bold package-details"></i>
                             <i className="bi bi-star-fill text-warning font-bold package-details"></i>
                             <i className="bi bi-star-fill text-warning font-bold package-details"></i>
@@ -309,7 +310,7 @@ const Packages = () => {
 
                         <div className="card-text d-flex align-items-center justify-content-start mb-2">
                           <p>
-                            <i class="bi bi-pin-map-fill"></i>
+                            <i className="bi bi-pin-map-fill"></i>
                           </p>
                           <h5 className="px-2 text-body-secondary package-details">
                             108 W 24th St, New York
@@ -361,7 +362,7 @@ const Packages = () => {
 
                         <div className="card-text d-flex align-items-center justify-content-start mb-2">
                           <p>
-                            <i class="bi bi-pin-map-fill"></i>
+                            <i className="bi bi-pin-map-fill"></i>
                           </p>
                           <h5 className="px-2 text-body-secondary package-details">
                             108 W 24th St, New York

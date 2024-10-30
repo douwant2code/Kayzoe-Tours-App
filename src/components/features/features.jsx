@@ -64,13 +64,13 @@ const Features = () => {
     {
       id: 0,
       image: feature1,
-      title: "Discover the possibilities",
+      title: "Explore the possibilities",
       des: "With nearly half a million attractions, hotels & more, you're sure to find joy.",
     },
     {
       id: 1,
       image: feature2,
-      title: "Enjoy deals & delights",
+      title: "Take advantage of the deals",
       des: "Quality activities. Great prices. Plus, earn credits to save more.",
     },
     {

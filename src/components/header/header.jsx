@@ -60,9 +60,7 @@ export const Header = () => {
                 <NavLink className="nav-link" to="/">
                   HOME
                 </NavLink>
-                <NavLink className="nav-link" to="about-us">
-                  ABOUT US
-                </NavLink>
+
                 <NavLink className="nav-link" to="tours">
                   TOURS
                 </NavLink>
@@ -77,23 +75,10 @@ export const Header = () => {
                 <NavLink className="nav-link" to="photo-galleries">
                   GALLERY
                 </NavLink>
-                <NavLink className="nav-link" to="contact-us">
-                  CONTACT
-                </NavLink>
-                {open ? (
-                  <NavLink className="mobileBtn me-2 btn-sm" to="booking">
-                    Get A Quote
-                  </NavLink>
-                ) : (
-                  ""
-                )}
               </Nav>
             </Offcanvas.Body>
           </Navbar.Offcanvas>
           <div className="ms-md-4 ms-2">
-            <NavLink className="quoteBtn d-none d-sm-inline-block" to="booking">
-              Get A Quote
-            </NavLink>
             <li className="d-inline-block d-lg-none ms-3 toggle_btn">
               <i
                 className={open ? "bi bi-x-lg" : "bi bi-list"}
