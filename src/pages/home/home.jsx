@@ -15,6 +15,7 @@ import "slick-carousel/slick/slick-theme.css";
 import "../home/home.css";
 
 import { destinationsData, popularsData } from "../../utils/data";
+import { NavLink } from "react-router-dom";
 
 const HomePage = () => {
   var settings = {
@@ -140,10 +141,14 @@ const HomePage = () => {
               </p>
             </Col>
             <Col md="4" className="text-center mt-3 mt-md-0">
-              <a href="/contact-us" className="secondary_btn bounce" rel="no">
+              <NavLink
+                to="contact-us"
+                className="secondary_btn bounce"
+                rel="no"
+              >
                 {" "}
                 Contact Us !
-              </a>
+              </NavLink>
             </Col>
           </Row>
         </Container>
